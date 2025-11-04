@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Blood Bank Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f9;
+        }
+
+        header {
+            background-color: #b30000;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #800000;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: white;
+            color: #b30000;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background: url('blood-donation.jpg') no-repeat center center/cover;
+            color: white;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        footer {
+            background: #b30000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #b30000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #800000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blood Bank Management System</h1>
+        <p>Save Lives — Donate Blood Today!</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="donor.html">Donor Registration</a>
+        <a href="request.html">Request Blood</a>
+        <a href="availability.html">Check Availability</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Be a Hero, Donate Blood</h1>
+        <p>Your small act can save a life!</p>
+        <button onclick="location.href='donor.html'">Become a Donor</button>
+    </div>
+
+    <section>
+        <h2>About Us</h2>
+        <p>
+            Our Blood Bank Management System helps hospitals and donors connect efficiently. 
+            We ensure the availability of safe and tested blood for those in need.
+        </p>
+    </section>
+
+    <footer>
+        <p>© 2025 Blood Bank Management System | Designed by Riza Altaf Pachapuri</p>
+    </footer>
+
+</body>
+</html>
